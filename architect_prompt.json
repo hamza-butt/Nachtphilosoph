@@ -25,8 +25,8 @@
             },
             "sections": [
                 {
-                    "section_title": "Exact string from input list (Keep original language if English, or translate if input is German - match input)",
-                    "objective": "Detailed instruction for the writer (2-3 sentences). Explain the core concept and specific angle."
+                    "section_title": "Keep in English (or the original input language). Do not translate.",
+                    "objective": "Detailed instruction for the writer in English. Explain the core concept and specific angle."
                 }
             ]
         }

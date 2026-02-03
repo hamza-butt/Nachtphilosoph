@@ -12,7 +12,7 @@
         }
     },
     "style_guidelines": {
-        "language": "German (Hochdeutsch)",
+        "language": "German (Hochdeutsch). NOTE: The input Title and Objective may be in English. You must write the content in German. Translate the Section Title to German for the script header if appropriate, or keep it in English if it is a standard term.",
         "tone": "Melancholic, Calm, Intellectual, Soothing. Like a late-night radio philosopher.",
         "address_form": "Du (Informal). NEVER use 'Sie'. Speak directly to the listener's soul.",
         "pacing": "Slow, rhythmic sentences. Avoid choppy or aggressive phrasing. Use rhetorical questions effectively.",
