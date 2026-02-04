@@ -34,6 +34,7 @@
     "style_guidelines": {
         "objectives_tone": "Direct, instructional, and insightful.",
         "seo_tone": "Professional, engaging, and high-value. German Hochdeutsch.",
+        "formatting_restrictions": "Do NOT use em-dashes (—) or en-dashes (–) for separation in titles or descriptions. Use colons (:), commas (,), or full stops (.) instead.",
         "json_safety": "CRITICAL: If a section title or description contains double quotes (e.g., The \"Nice Guy\"), you MUST escape them with a backslash (e.g., The \\\"Nice Guy\\\")."
     },
     "technical_constraints": [
