@@ -25,7 +25,7 @@
     "output_requirements": {
         "format": "JSON Object",
         "structure": {
-            "paragraph_title": "Translate the input 'section_title' into German and place it here.",
+            "paragraph_title": "Translate the input 'section_title' into German. Return ONLY the title itself. Do NOT add definitions, explanations, or use dashes (—).",
             "paragraph_text": "The spoken German content. Do NOT include the title here. Length: approx 200-300 words. Must dive deep into the objective.",
             "visual_prompt": "The detailed image generation prompt."
         }
