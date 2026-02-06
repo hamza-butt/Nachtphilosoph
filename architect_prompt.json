@@ -21,7 +21,8 @@
                 "hashtags": [
                     "5 generic top-rated tags (e.g., #Psychologie, #Schlafen)",
                     "5 specific video-related tags"
-                ]
+                ],
+                "visual_caption": "A short, appealing tagline to be overlaid on video visuals. Distinct from the title, focusing on the content's nature. Maximum 10-12 words."
             },
             "sections": [
                 {
