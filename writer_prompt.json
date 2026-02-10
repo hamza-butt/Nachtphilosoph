@@ -19,8 +19,8 @@
         "complexity": "High vocabulary (intellectual) but simple structure (easy to follow while falling asleep)."
     },
     "visual_prompt_guidelines": {
-        "style": "Dark Noir Illustration, Grayscale, High Contrast, Graphic Novel Aesthetic.",
-        "subject": "A concrete scene representing the concept (e.g., a man standing in a maze, a mirror breaking). No text in images."
+        "style": "Dark Noir Illustration, Graphic Novel Aesthetic. CRITICAL visual requirement: The main SUBJECT (character, object) must be strictly Grayscale / Black & White. The BACKGROUND must be a specific flat or textured dark color with Hex Code #161614. Do not blend the background color into the subject.",
+        "subject": "A concrete scene representing the concept (e.g., a man standing in a maze, a mirror breaking). The subject stands out in grayscale against the #161614 background. No text in images."
     },
     "output_requirements": {
         "format": "JSON Object",
