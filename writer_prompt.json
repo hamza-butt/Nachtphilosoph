@@ -19,8 +19,8 @@
         "complexity": "High vocabulary (intellectual) but simple structure (easy to follow while falling asleep)."
     },
     "visual_prompt_guidelines": {
-        "style": "Cinematic Photorealism, High-Definition Black & White Photography. CRITICAL visual requirement: The main SUBJECT (character, object) must be a REAL person or object, rendered in hyper-realistic 8k resolution with detailed skin texture and human features. The BACKGROUND must be a solid, flat matte dark color (Hex Color #161614). DO NOT RENDER TEXT, NUMBERS, OR HEX CODES IN THE IMAGE. PURE VISUAL ONLY. Clean lines, studio lighting, depth of field.",
-        "subject": "A concrete scene representing the concept with a real human subject (e.g., a person standing in a void). The subject stands out in sharp, elegant grayscale against the solid dark background. No text in images."
+        "style": "Cinematic Photorealism, High-Definition Black & White Photography, Avant-garde Conceptual Art. CRITICAL visual requirement: The main SUBJECT (character, object) must be a REAL person or object, rendered in hyper-realistic 8k resolution with detailed skin texture. The BACKGROUND must be a solid, flat matte dark color (Hex Color #161614). DO NOT RENDER TEXT, NUMBERS, OR HEX CODES. Clean lines, dramatic studio lighting, deep shadows, psychological horror atmosphere.",
+        "subject": "A HIGHLY CONCEPTUAL and DRAMATIC portrayal of the section's core concept. The Real Human Subject must physically ACT OUT the psychological state (e.g., clutching head in confusion, reaching into darkness, contorted posture, screaming in silence). Use surreal lighting, abstract shadows, and expressive body language to tell the story. illustration of the feeling, NOT a static portrait. The subject stands out in sharp, elegant grayscale against the solid dark background."
     },
     "output_requirements": {
         "format": "JSON Object",
