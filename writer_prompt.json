@@ -19,21 +19,20 @@
         "complexity": "High vocabulary (intellectual) but simple structure (easy to follow while falling asleep)."
     },
     "visual_prompt_guidelines": {
-        "visual_prompt_guidelines": {
-            "style": "Cinematic Photorealism, High-Definition Black & White Photography. CRITICAL visual requirement: The main SUBJECT (character, object) must be a REAL person or object, rendered in hyper-realistic 8k resolution with detailed skin texture and human features. The BACKGROUND must be a solid, flat matte dark color (Hex Color #161614). DO NOT RENDER TEXT, NUMBERS, OR HEX CODES IN THE IMAGE. PURE VISUAL ONLY. Clean lines, studio lighting, depth of field.",
-            "subject": "A concrete scene representing the concept with a real human subject (e.g., a person standing in a void). The subject stands out in sharp, elegant grayscale against the solid dark background. No text in images."
-        },
-        "output_requirements": {
-            "format": "JSON Object",
-            "structure": {
-                "paragraph_title": "Translate the input 'section_title' into German. Return ONLY the title itself. Do NOT add definitions, explanations, or use dashes (—).",
-                "paragraph_text": "The spoken German content. Do NOT include the title here. Length: approx 200-300 words. Must dive deep into the objective.",
-                "visual_prompt": "The detailed image generation prompt."
-            }
-        },
-        "technical_constraints": [
-            "CRITICAL: Output MUST be a valid JSON Object.",
-            "CRITICAL: Do NOT use markdown code fences.",
-            "CRITICAL: Escape all quotes within strings properly."
-        ]
-    }
+        "style": "Cinematic Photorealism, High-Definition Black & White Photography. CRITICAL visual requirement: The main SUBJECT (character, object) must be a REAL person or object, rendered in hyper-realistic 8k resolution with detailed skin texture and human features. The BACKGROUND must be a solid, flat matte dark color (Hex Color #161614). DO NOT RENDER TEXT, NUMBERS, OR HEX CODES IN THE IMAGE. PURE VISUAL ONLY. Clean lines, studio lighting, depth of field.",
+        "subject": "A concrete scene representing the concept with a real human subject (e.g., a person standing in a void). The subject stands out in sharp, elegant grayscale against the solid dark background. No text in images."
+    },
+    "output_requirements": {
+        "format": "JSON Object",
+        "structure": {
+            "paragraph_title": "Translate the input 'section_title' into German. Return ONLY the title itself. Do NOT add definitions, explanations, or use dashes (—).",
+            "paragraph_text": "The spoken German content. Do NOT include the title here. Length: approx 200-300 words. Must dive deep into the objective.",
+            "visual_prompt": "The detailed image generation prompt."
+        }
+    },
+    "technical_constraints": [
+        "CRITICAL: Output MUST be a valid JSON Object.",
+        "CRITICAL: Do NOT use markdown code fences.",
+        "CRITICAL: Escape all quotes within strings properly."
+    ]
+}
