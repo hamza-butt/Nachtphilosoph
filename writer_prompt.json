@@ -34,6 +34,7 @@
     "technical_constraints": [
         "CRITICAL: Output MUST be a valid JSON Object.",
         "CRITICAL: Do NOT use markdown code fences.",
-        "CRITICAL: Escape all quotes within strings properly."
+        "CRITICAL: Escape all quotes within strings properly.",
+        "CRITICAL: Escape ALL newlines within strings as \\\\n (do not output literal newline characters)."
     ]
 }
