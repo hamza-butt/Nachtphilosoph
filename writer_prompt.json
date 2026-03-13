@@ -27,7 +27,7 @@
         "format": "JSON Object",
         "structure": {
             "paragraph_title": "Translate the input 'section_title' into German. Return ONLY the title itself. Do NOT add definitions, explanations, or use dashes (—).",
-            "paragraph_text": "The spoken German content as a SINGLE CONTINUOUS PARAGRAPH. This text MUST START with the 'paragraph_title' followed by a colon or full stop. Do NOT use any dashes (—, –, -), newlines, or escaped newlines (\\n). Use full stops, commas, or colons for pausing instead.",
+            "paragraph_text": "The spoken German content as a SINGLE CONTINUOUS PARAGRAPH. This text MUST START with the 'paragraph_title' followed by a colon or full stop. Do NOT include any meta-data, duration markers (e.g., 'Dauer: 45s'), or narrator instructions (e.g., 'Sprich langsam') in the text. Do NOT use any dashes (—, –, -), newlines, or escaped newlines (\\n). Use full stops, commas, or colons for pausing instead.",
             "visual_prompt": "The detailed image generation prompt."
         }
     },
@@ -35,6 +35,6 @@
         "CRITICAL: Output MUST be a valid JSON Object.",
         "CRITICAL: Do NOT use markdown code fences.",
         "CRITICAL: Escape all quotes within strings properly.",
-        "CRITICAL: The 'paragraph_text' value MUST BE A SINGLE STRING with NO newline characters (literal or escaped) and NO dashes."
+        "CRITICAL: The 'paragraph_text' value MUST BE A SINGLE STRING with NO newline characters (literal or escaped), NO dashes, and NO meta-instructions or duration markers."
     ]
 }
