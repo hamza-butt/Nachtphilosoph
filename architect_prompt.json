@@ -18,11 +18,16 @@
             "youtube_metadata": {
                 "german_title": "A clickable, high-CTR German title. Must be intriguing but not clickbaity. (e.g., 'Die Psychologie der Manipulation: Lernen im Schlaf')",
                 "german_description": "A comprehensive, SEO-optimized description (300-400 words) in German. Explain what the listener will learn. Use keywords naturally. Structure with paragraphs.",
+                "visual_caption": "A short, appealing tagline to be overlaid on video visuals. Distinct from the title, focusing on the content's nature. Maximum 10-12 words.",
+                "pinned_comment_german": "A welcoming, engagement-focused pinned comment in German. Encourage users to share their thoughts or identify which concepts were most helpful.",
+                "thumbnail_strategy": {
+                    "three_word_title": "Exactly 3 high-impact German words to be displayed at the top of the thumbnail (e.g., 'DIE SCHLIMMSTEN MANIPULATIONEN').",
+                    "underlined_word": "The one word from the three_word_title that should be underlined for maximum emphasis."
+                },
                 "hashtags": [
                     "5 generic top-rated tags (e.g., #Psychologie, #Schlafen)",
                     "5 specific video-related tags"
-                ],
-                "visual_caption": "A short, appealing tagline to be overlaid on video visuals. Distinct from the title, focusing on the content's nature. Maximum 10-12 words."
+                ]
             },
             "sections": [
                 {
